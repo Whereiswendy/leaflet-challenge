@@ -30,9 +30,7 @@ The instructions for this activity are broken into two parts:
 
 ## Part 1: Create the Earthquake Visualisation
 
-<img src="https://github.com/user-attachments/assets/53aa5ccf-42b5-4f5f-b3e3-dfa0e0e48679" alt="description" style="border: 2px solid black;">
-
-![image](https://github.com/user-attachments/assets/53aa5ccf-42b5-4f5f-b3e3-dfa0e0e48679)
+<img src="https://github.com/user-attachments/assets/53aa5ccf-42b5-4f5f-b3e3-dfa0e0e48679" alt="description" style="border: 10px solid black;">
 
 Your first task is to visualize an earthquake dataset. Complete the following steps:
 
