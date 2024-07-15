@@ -30,8 +30,6 @@ The instructions for this activity are broken into two parts:
 
 ## Part 1: Create the Earthquake Visualisation
 
-<img src="https://github.com/user-attachments/assets/53aa5ccf-42b5-4f5f-b3e3-dfa0e0e48679" alt="description" style="border: 10px solid black;">
-
 <img src="https://static.bc-edx.com/data/dla-1-2/m15/lms/img/2-BasicMap.jpg" alt="2-BasicMap" tabindex="0" role="button" aria-label="2-BasicMap. Click to Enlarge.">
 
 Your first task is to visualize an earthquake dataset. Complete the following steps:
