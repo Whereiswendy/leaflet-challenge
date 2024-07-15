@@ -24,37 +24,42 @@ Download the following files to help you get started:
 ## Instructions
 The instructions for this activity are broken into two parts:
 
-### Part 1: Create the Earthquake Visualisation
+- Part 1: Create the Earthquake Visualisation
+
+- Part 2: Gather and Plot More Data (Optional with no extra points earning)
+
+## Part 1: Create the Earthquake Visualisation
 
 ![image](https://github.com/user-attachments/assets/53aa5ccf-42b5-4f5f-b3e3-dfa0e0e48679)
-
-### Part 2: Gather and Plot More Data (Optional with no extra points earning)
-
-### Part 1: Create the Earthquake Visualization
 
 Your first task is to visualize an earthquake dataset. Complete the following steps:
 
 1. Get your dataset. To do so, follow these steps:
    - The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and choose a dataset to visualise. 
-     ![Example Screenshot](![image](https://github.com/user-attachments/assets/ad5c9a7e-1334-44c3-a51d-d058157c10b6)
+     ![image](https://github.com/user-attachments/assets/ad5c9a7e-1334-44c3-a51d-d058157c10b6)
+     
    - When you click a dataset (such as "All Earthquakes from the Past 7 Days"), you will be given a JSON representation of that data. Use the URL of this JSON to pull in the data for the visualization.
-     ![JSON Example](![image](https://github.com/user-attachments/assets/0ae078b2-ab4f-4779-8d0f-0660cfaf255f)
+     ![image](https://github.com/user-attachments/assets/0ae078b2-ab4f-4779-8d0f-0660cfaf255f)
+     
 2. Import and visualize the data by doing the following:
    - Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude.
-   - Your data markers should reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in color.
-     - *Hint: The depth of the earth can be found as the third coordinate for each earthquake.*
+      - Your data markers should reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in color.
+      - *Hint: The depth of the earth can be found as the third coordinate for each earthquake.*
+   
    - Include popups that provide additional information about the earthquake when its associated marker is clicked.
    - Create a legend that will provide context for your map data.
-   - Your visualation should look something like the preceding map.
+   - Your visualisation should look something like the preceding map.
 
-### Part 2: Gather and Plot More Data (Optional with no extra points earning)
+---
+
+## Part 2: Gather and Plot More Data (Optional with no extra points earning)
 
 Plot a second dataset on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in this dataset and visualize it alongside your original data. Data on tectonic plates can be found at [GitHub: Tectonic Plates](https://github.com/fraxen/tectonicplates).
 
 This part is completely optional; you can complete this part as a way to challenge yourself and boost your new skills.
 
 The following image is an example screenshot of what you should produce:
-![Advanced Example](![image](https://github.com/user-attachments/assets/015848fc-cb5b-4190-b1d3-e8b3e9cb3b59)
+![image](https://github.com/user-attachments/assets/015848fc-cb5b-4190-b1d3-e8b3e9cb3b59)
 
 Perform the following tasks:
 - Plot the tectonic plates dataset on the map in addition to the earthquakes.
