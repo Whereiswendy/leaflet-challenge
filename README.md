@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/accfb1c9-c538-449e-bf09-a1b2d07b8fb8)# Module 15 Challenge - using leaflet library
+# Module 15 Challenge - using leaflet library
 UWA Data Analytics Bootcamp (2024) - USGS Earthquake Data Visualisation Challenge
 
 **Due Thursday by 23:59**  
