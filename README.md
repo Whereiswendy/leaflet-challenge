@@ -79,7 +79,7 @@ leaflet-challenge/
 
 ├── index.html `This is the file that holds the final *.html code`
 
-└── README.md
+└── README.md `You are currently here`
 
 ## Acknowledgements
 
