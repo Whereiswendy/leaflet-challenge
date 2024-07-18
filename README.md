@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This project aims to create an interactive map to visualise earthquake data in relation to tectonic plate boundaries. The data used are provided by the United States Geological Survey (USGS) and the "GitHub - Tectonic Plates" repository.
+This project aims to create an interactive map to visualise earthquake data from the last 7 days in relation to tectonic plate boundaries. The data used are provided by the United States Geological Survey (USGS) and the "GitHub - Tectonic Plates" repository.
+
+The interactive map can be viewed [here](https://whereiswendy.github.io/leaflet-challenge/).
 
 ## Project Overview
 
