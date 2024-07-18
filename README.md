@@ -44,23 +44,41 @@ An additional layer is provided to illustrate the relationship between tectonic 
 The repository layout is as follows:
 
 leaflet-challenge/
+
 ├── Resources/
+
 │   ├── PB2002_boundaries.json
+
 ├── Starter_Code/
+
 │   ├── static/
+
 │   │   ├── css/
+
 │   │   │   └── style.css
+
 │   │   └── js/
+
 │   │       └── logic.js
+
 │   └── index.html
+
 ├── static/
+
 │   ├── css/
+
 │   │   └── style.css `This is the file that holds the final *.css code`
+
 │   └── js/
+
 │       └── logic_combined.js `This is the file that holds the final *.js code`
+
 │       └── logic_part1.js `Archive`
+
 │       └── logic_part2.js `Archive`
+
 ├── index.html `This is the file that holds the final *.html code`
+
 └── README.md
 
 ## Acknowledgements
