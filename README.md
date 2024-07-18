@@ -2,13 +2,13 @@
 
 ## Introduction
 
-This project aims to create an interactive map to visualise earthquake data provided by the United States Geological Survey (USGS). The objective is to develop tools that allow the USGS to better educate the public and other government organisations about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. This visualisation will help in showcasing the significance of their data, potentially securing more funding for research and development.
+This project aims to create an interactive map to visualise earthquake data in relation to tectonic plate boundaries. The data used are provided by the United States Geological Survey (USGS) and the "GitHub - Tectonic Plates" repository.
 
 ## Project Overview
 
 ### Earthquake Visualization
 
-The visualization includes:
+The visualisation includes:
 - **Markers**: Representing earthquakes, where the size of the marker reflects the magnitude and the color indicates the depth of the earthquake.
 - **Popups**: Providing additional information about each earthquake, including its magnitude, location, and depth.
 - **Legend**: Explaining the color coding used for earthquake depths.
@@ -65,7 +65,7 @@ leaflet-challenge/
 
 ## Acknowledgements
 
-This project was completed as part of the UWA Data Analytics Bootcamp (2024). The earthquake data used in this project is provided by the [United States Geological Survey](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
+This project was completed as part of the UWA Data Analytics Bootcamp (2024). The earthquake data used in this project is provided by the [United States Geological Survey](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) and [GitHub: Tectonic Plates](https://github.com/fraxen/tectonicplates).
 
 ---
 
