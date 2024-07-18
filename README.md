@@ -1,4 +1,75 @@
-# Module 15 Challenge - using leaflet library
+# USGS Earthquake Data Visualisation Challenge
+
+## Introduction
+
+This project aims to create an interactive map to visualise earthquake data provided by the United States Geological Survey (USGS). The objective is to develop tools that allow the USGS to better educate the public and other government organisations about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. This visualisation will help in showcasing the significance of their data, potentially securing more funding for research and development.
+
+## Project Overview
+
+### Earthquake Visualization
+
+The visualization includes:
+- **Markers**: Representing earthquakes, where the size of the marker reflects the magnitude and the color indicates the depth of the earthquake.
+- **Popups**: Providing additional information about each earthquake, including its magnitude, location, and depth.
+- **Legend**: Explaining the color coding used for earthquake depths.
+- **Base Layers**: Multiple map styles to choose from, such as CartoDB Light, OpenStreetMap, Stamen Toner, Stamen Watercolor, and ESRI World Imagery.
+- **Overlay Layers**: Toggleable layers to view earthquake data and tectonic plate boundaries.
+
+### Plate Boundaries Visualization
+
+An additional layer is provided to illustrate the relationship between tectonic plates and seismic activity. This layer is toggleable and can be visualized alongside the earthquake data.
+
+## Usage
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/leaflet-challenge.git
+   cd leaflet-challenge
+   
+```
+2. **Serve the project**:
+   Use Python's HTTP server to serve the files.
+   ```bash
+   python -m http.server 8000
+   ```
+   Then, open your browser and navigate to `http://localhost:8000`.
+
+3. **Explore the map**:
+   - Use the layer control to switch between different base maps.
+   - Toggle the earthquake data and tectonic plate boundaries on and off.
+   - Click on the markers to see detailed information about each earthquake.
+
+## Repository Layout
+
+The repository layout is as follows:
+
+leaflet-challenge/
+├── Resources/
+│   ├── PB2002_boundaries.json
+├── Starter_Code/
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   └── js/
+│   │       └── logic.js
+│   └── index.html
+├── static/
+│   ├── css/
+│   │   └── style.css `This is the file that holds the final *.css code`
+│   └── js/
+│       └── logic_combined.js `This is the file that holds the final *.js code`
+│       └── logic_part1.js `Archive`
+│       └── logic_part2.js `Archive`
+├── index.html `This is the file that holds the final *.html code`
+└── README.md
+
+## Acknowledgements
+
+This project was completed as part of the UWA Data Analytics Bootcamp (2024). The earthquake data used in this project is provided by the [United States Geological Survey](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
+
+---
+
+# Appendix - Module 15 Challenge - using leaflet library instructions from course coordinators
 UWA Data Analytics Bootcamp (2024) - USGS Earthquake Data Visualisation Challenge
 
 **Due Thursday by 23:59**  
@@ -114,4 +185,5 @@ If the above resources are not applicable and you have a need, please reach out 
 
 ## References
 Dataset created by the [United States Geological Survey](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
+
 
