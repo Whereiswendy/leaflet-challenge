@@ -8,13 +8,13 @@ The interactive map can be viewed [here](https://whereiswendy.github.io/leaflet-
 
 ## Project Overview
 
-### Earthquake Visualization
+### Earthquake Visualisation
 
 The visualisation includes:
 - **Markers**: Representing earthquakes, where the size of the marker reflects the magnitude and the color indicates the depth of the earthquake.
 - **Popups**: Providing additional information about each earthquake, including its magnitude, location, and depth.
 - **Legend**: Explaining the color coding used for earthquake depths.
-- **Base Layers**: Multiple map styles to choose from, such as CartoDB Light, OpenStreetMap, Stamen Toner, Stamen Watercolor, and ESRI World Imagery.
+- **Base Layers**: Two map styles used are CartoDB Light and OpenStreetMap.
 - **Overlay Layers**: Toggleable layers to view earthquake data and tectonic plate boundaries.
 
 ### Plate Boundaries Visualisation
