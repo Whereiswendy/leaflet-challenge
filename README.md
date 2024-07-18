@@ -15,7 +15,7 @@ The visualisation includes:
 - **Base Layers**: Multiple map styles to choose from, such as CartoDB Light, OpenStreetMap, Stamen Toner, Stamen Watercolor, and ESRI World Imagery.
 - **Overlay Layers**: Toggleable layers to view earthquake data and tectonic plate boundaries.
 
-### Plate Boundaries Visualization
+### Plate Boundaries Visualisation
 
 An additional layer is provided to illustrate the relationship between tectonic plates and seismic activity. This layer is toggleable and can be visualized alongside the earthquake data.
 
