@@ -25,8 +25,8 @@ An additional layer is provided to illustrate the relationship between tectonic 
    ```bash
    git clone https://github.com/your-username/leaflet-challenge.git
    cd leaflet-challenge
-   
-```
+   ```
+
 2. **Serve the project**:
    Use Python's HTTP server to serve the files.
    ```bash
