@@ -2,20 +2,22 @@
 
 ## Introduction
 
-This project aims to create an interactive map to visualise earthquake data in relation to tectonic plate boundaries. The data used are provided by the United States Geological Survey (USGS) and the "GitHub - Tectonic Plates" repository.
+This project aims to create an interactive map to visualise earthquake data from the last 7 days in relation to tectonic plate boundaries. The data used are provided by the United States Geological Survey (USGS) and the "GitHub - Tectonic Plates" repository.
+
+The interactive map can be viewed [here](https://whereiswendy.github.io/leaflet-challenge/).
 
 ## Project Overview
 
-### Earthquake Visualization
+### Earthquake Visualisation
 
 The visualisation includes:
 - **Markers**: Representing earthquakes, where the size of the marker reflects the magnitude and the color indicates the depth of the earthquake.
 - **Popups**: Providing additional information about each earthquake, including its magnitude, location, and depth.
 - **Legend**: Explaining the color coding used for earthquake depths.
-- **Base Layers**: Multiple map styles to choose from, such as CartoDB Light, OpenStreetMap, Stamen Toner, Stamen Watercolor, and ESRI World Imagery.
+- **Base Layers**: Two map styles used are CartoDB Light and OpenStreetMap.
 - **Overlay Layers**: Toggleable layers to view earthquake data and tectonic plate boundaries.
 
-### Plate Boundaries Visualization
+### Plate Boundaries Visualisation
 
 An additional layer is provided to illustrate the relationship between tectonic plates and seismic activity. This layer is toggleable and can be visualized alongside the earthquake data.
 
@@ -25,8 +27,8 @@ An additional layer is provided to illustrate the relationship between tectonic 
    ```bash
    git clone https://github.com/your-username/leaflet-challenge.git
    cd leaflet-challenge
-   
-```
+   ```
+
 2. **Serve the project**:
    Use Python's HTTP server to serve the files.
    ```bash
@@ -44,24 +46,42 @@ An additional layer is provided to illustrate the relationship between tectonic 
 The repository layout is as follows:
 
 leaflet-challenge/
+
 ├── Resources/
+
 │   ├── PB2002_boundaries.json
+
 ├── Starter_Code/
+
 │   ├── static/
+
 │   │   ├── css/
+
 │   │   │   └── style.css
+
 │   │   └── js/
+
 │   │       └── logic.js
+
 │   └── index.html
+
 ├── static/
+
 │   ├── css/
+
 │   │   └── style.css `This is the file that holds the final *.css code`
+
 │   └── js/
+
 │       └── logic_combined.js `This is the file that holds the final *.js code`
+
 │       └── logic_part1.js `Archive`
+
 │       └── logic_part2.js `Archive`
+
 ├── index.html `This is the file that holds the final *.html code`
-└── README.md
+
+└── README.md `You are currently here`
 
 ## Acknowledgements
 
