@@ -1,4 +1,4 @@
-# USGS Earthquake Data Visualisation Challenge
+# USGS Earthquake Data Visualisation Challenge1
 
 ## Introduction
 
